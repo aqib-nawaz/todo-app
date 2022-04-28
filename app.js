@@ -45,4 +45,6 @@ document.getElementById('add').onclick = function () {
     let inputVal = document.getElementById("input").value;
 
     createElement(inputVal)
+
+    document.getElementById("input").value = "";
 }
