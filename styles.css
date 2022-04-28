@@ -86,3 +86,7 @@ button#delete{
     cursor: pointer;
     margin-left: auto;
 }
+
+.checked > li {
+    text-decoration: line-through;
+}
